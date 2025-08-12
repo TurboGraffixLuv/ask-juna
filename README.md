@@ -89,5 +89,3 @@ python juna_gui.py
 - 💬 Formerly [GPT4All](https://github.com/nomic-ai/gpt4all) — now evolved
 
 ---
-
-Want me to help write a bootup message that reflects this lore when Juna launches? Or a splash screen in the GUI that shows her origin story? We can make her feel like a character with history.
