@@ -2,7 +2,7 @@ from llama_cpp import Llama
 
 # Load Juna's model
 llm = Llama(
-    model_path=r"C:/Users/terel/ask-juna/models/capybarahermes-2.5-mistral-7b.Q2_K.gguf",
+    model_path=r"C:/Users/ask-juna/models/capybarahermes-2.5-mistral-7b.Q2_K.gguf", #add path to models here
     n_ctx=2048,
     n_threads=6,
     n_batch=512,
@@ -29,4 +29,5 @@ while True:
     )
 
     response = llm(prompt, max_tokens=100)
+
     print("Juna:", response["choices"][0]["text"].strip())
